@@ -5,6 +5,7 @@ Build for www.adamf.in
 ## Technology
 
 * Gridsome
+* Tailwind CSS
 * VueJS
 
 ## License
