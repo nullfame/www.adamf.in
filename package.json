@@ -22,5 +22,10 @@
   "homepage": "https://github.com/nullfame/www.adamf.in#readme",
   "dependencies": {
     "gridsome": "^0.7.23"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.14",
+    "tailwindcss": "^2.0.1"
   }
 }
