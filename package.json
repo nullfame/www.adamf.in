@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.0.4",
+    "gridsome-plugin-tailwindcss": "^4.1.1",
     "postcss": "^8.1.14",
     "tailwindcss": "^2.0.1"
   }
