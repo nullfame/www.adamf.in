@@ -1,26 +1,41 @@
 {
   "name": "adamf.in-v11",
   "version": "0.0.1",
-  "description": "Build for www.adamf.in",
   "private": true,
-  "scripts": {
-    "build": "gridsome build",
-    "lint": "vue-cli-service lint",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "start": "gridsome develop",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Build for www.adamf.in",
+  "homepage": "https://github.com/nullfame/www.adamf.in#readme",
+  "bugs": {
+    "url": "https://github.com/nullfame/www.adamf.in/issues"
   },
-  "author": "Adam Finlayson",
-  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nullfame/www.adamf.in.git"
   },
-  "bugs": {
-    "url": "https://github.com/nullfame/www.adamf.in/issues"
+  "license": "UNLICENSED",
+  "author": "Adam Finlayson",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint": "vue-cli-service lint",
+    "start": "gridsome develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/nullfame/www.adamf.in#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "package.json": [
+      "sort-package-json",
+      "git add"
+    ]
+  },
   "dependencies": {
     "gridsome": "^0.7.23"
   },
