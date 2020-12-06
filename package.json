@@ -2,7 +2,12 @@
   "name": "adamf.in-v11",
   "version": "0.0.1",
   "description": "Build for www.adamf.in",
+  "private": true,
   "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "start": "gridsome develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adam Finlayson",
@@ -14,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nullfame/www.adamf.in/issues"
   },
-  "homepage": "https://github.com/nullfame/www.adamf.in#readme"
+  "homepage": "https://github.com/nullfame/www.adamf.in#readme",
+  "dependencies": {
+    "gridsome": "^0.7.23"
+  }
 }

@@ -3,6 +3,12 @@
 ### Generated files and other derivatives ###
 coverage/
 
+### Gridsome
+.cache
+src/.temp
+dist
+.env
+
 
 # Created by https://www.gitignore.io/api/osx,node,linux,windows
 
