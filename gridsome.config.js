@@ -8,6 +8,14 @@ module.exports = {
   siteName: "Adam Finlayson",
   plugins: [
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        baseDir: "./content",
+        path: "**/*.md",
+        typeName: "Content",
+      },
+    },
+    {
       use: "gridsome-plugin-tailwindcss",
       // * These are the default options.
       // options: {
@@ -18,4 +26,7 @@ module.exports = {
       // },
     },
   ],
+  templates: {
+    Content: "/:path",
+  },
 };
