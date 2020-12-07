@@ -1,25 +1,27 @@
 <template>
   <Layout>
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-      excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-      Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-      excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-      Dolores, aperiam non officia eos quod asperiores
-    </p>
+    <div class="prose" v-html="$page.bio.content"></div>
   </Layout>
 </template>
 
+<page-query>
+query {
+  bio: content (path: "/bio/") {
+    content,
+    tagline
+  },
+  site: metadata {
+    name: siteName
+  }
+}
+</page-query>
+
 <script>
 export default {
-  metaInfo: {
-    title: "Hello, world!",
+  metaInfo() {
+    return {
+      titleTemplate: `${this.$page.site.name} - ${this.$page.bio.tagline}`,
+    };
   },
 };
 </script>

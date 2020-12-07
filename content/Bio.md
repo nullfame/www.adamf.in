@@ -1,5 +1,6 @@
 ---
 title: Adam Finlayson
+tagline: Lead AWS/JavaScript Cloud Developer in Evanston/Chicago
 ---
 
 Cloud developer who once mapped the maze of twisty little passages all alike. Verbs: build, empower, connect.
