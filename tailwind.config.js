@@ -6,11 +6,20 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        headline: "'Cormorant Garamond', Baskerville, serif",
+        body: "'Noto Serif TC', Baskerville, serif",
+      },
       gridTemplateColumns: {
         2: "3fr 5fr",
       },
       gridTemplateRows: {
         4: "auto auto 1fr auto",
+      },
+      textColor: {
+        "light-brown": "#836953",
+        brown: "#6f4e37",
+        "dark-brown": "#2c1608",
       },
     },
   },
@@ -19,12 +28,19 @@ module.exports = {
   },
   plugins: [
     typography,
-    plugin(function ({ addBase }) {
+    plugin(function ({ addBase, addUtilities }) {
       addBase({
         body: {
           background: "#fffaf0",
         },
       });
+
+      const breakWords = {
+        ".break-words": {
+          "word-spacing": "100vw",
+        },
+      };
+      addUtilities(breakWords, ["responsive"]);
     }),
   ],
 };

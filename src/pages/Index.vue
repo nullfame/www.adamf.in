@@ -1,6 +1,9 @@
 <template>
   <Layout>
-    <div class="prose" v-html="$page.bio.content"></div>
+    <div
+      class="prose prose-xl font-body text-dark-brown leading-loose"
+      v-html="$page.bio.content"
+    ></div>
   </Layout>
 </template>
 

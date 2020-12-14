@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <article class="prose">
+    <article class="prose prose-xl font-body text-dark-brown leading-loose">
       <h1>{{ $page.content.title }}</h1>
       <div v-html="$page.content.content"></div>
     </article>

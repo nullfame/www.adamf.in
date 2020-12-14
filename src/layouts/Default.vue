@@ -4,7 +4,9 @@
   >
     <section class="col-start-1 row-start-2">Photo</section>
     <section class="col-start-1 row-start-1">
-      <header>
+      <header
+        class="font-headline font-light tracking-tight text-6xl text-right lg:break-words text-brown hover:text-dark-brown"
+      >
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </header>
     </section>
