@@ -2,7 +2,20 @@
   <div
     class="max-w-screen-sm mx-auto lg:max-w-screen-xl lg:mx-16 xl:mx-32 2xl:mx-auto lg:grid lg:grid-rows-4 lg:grid-cols-2 lg:gap-y-8 lg:gap-x-16 lg:my-16"
   >
-    <section class="col-start-1 row-start-2">Photo</section>
+    <section class="col-start-1 row-start-2">
+      <g-image
+        src="~/assets/images/adamfinlayson-2019.jpg"
+        width="480"
+        quality="100"
+        class="hidden lg:inline rounded-lg"
+      />
+      <g-image
+        src="~/assets/images/adamfinlayson-2019-wide.jpg"
+        width="640"
+        quality="100"
+        class="inline lg:hidden"
+      />
+    </section>
     <section class="col-start-1 row-start-1">
       <header
         class="font-headline font-light tracking-tight text-6xl text-right lg:break-words text-brown hover:text-dark-brown"
