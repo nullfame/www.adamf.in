@@ -9,7 +9,7 @@
 
 <page-query>
 query {
-  bio: content (path: "/bio/") {
+  bio: content (path: "/home/") {
     content,
     tagline
   },
