@@ -16,6 +16,14 @@ module.exports = {
       },
     },
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        baseDir: "./meta-content",
+        path: "*.yaml",
+        typeName: "MetaContent",
+      },
+    },
+    {
       use: "gridsome-plugin-tailwindcss",
       // * These are the default options.
       // options: {
