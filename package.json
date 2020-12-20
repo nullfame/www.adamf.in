@@ -39,7 +39,9 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
-    "gridsome": "^0.7.23"
+    "@gridsome/transformer-yaml": "^0.2.1",
+    "gridsome": "^0.7.23",
+    "marked": "^1.2.7"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.3.1",
