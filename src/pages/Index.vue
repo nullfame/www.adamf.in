@@ -13,9 +13,10 @@ query {
     content,
     tagline
   },
-  site: metadata {
-    name: siteName
-  }
+  site: metaContent (path: "/site/") {
+    title,
+    tagline,
+  },
 }
 </page-query>
 
@@ -23,7 +24,7 @@ query {
 export default {
   metaInfo() {
     return {
-      titleTemplate: `${this.$page.site.name} - ${this.$page.bio.tagline}`,
+      titleTemplate: `${this.$page.site.title} - ${this.$page.site.tagline}`,
     };
   },
 };

@@ -23,7 +23,10 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </header>
     </section>
-    <section class="col-start-1 row-start-3">Summary</section>
+    <section
+      class="col-start-1 row-start-3 prose prose-xl my-6 lg:my-0 lg:prose-lg font-body text-dark-brown"
+      v-html="summary"
+    ></section>
     <section class="col-start-2 row-span-3">
       <slot />
     </section>
@@ -35,6 +38,24 @@
 query {
   metadata {
     siteName
-  }
+  },
+  metaContent (path: "/site/") {
+    id,
+    title,
+    tagline,
+    summary
+  },
 }
 </static-query>
+
+<script>
+const marked = require("marked");
+
+export default {
+  computed: {
+    summary: function () {
+      return marked(this.$static.metaContent.summary);
+    },
+  },
+};
+</script>
