@@ -10,8 +10,7 @@
 <page-query>
 query {
   bio: content (path: "/home/") {
-    content,
-    tagline
+    content
   },
   site: metaContent (path: "/site/") {
     title,
