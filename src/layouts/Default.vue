@@ -27,7 +27,9 @@
       class="col-start-1 row-start-3 prose prose-xl px-3 sm:px-6 lg:px-0 my-6 lg:my-0 lg:prose-lg font-body text-dark-brown"
       v-html="summary"
     ></section>
-    <section class="col-start-2 row-span-3 px-3 sm:px-6 lg:px-0">
+    <section
+      class="col-start-2 row-span-3 px-3 sm:px-6 lg:px-0 mb-6 sm:mb-12 md:mb-24 lg:mb-0"
+    >
       <slot />
     </section>
   </div>
