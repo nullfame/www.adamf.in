@@ -30,7 +30,6 @@
     <section class="col-start-2 row-span-3 px-3 sm:px-6 lg:px-0">
       <slot />
     </section>
-    <section class="col-start-1 col-span-2">Footer</section>
   </div>
 </template>
 
