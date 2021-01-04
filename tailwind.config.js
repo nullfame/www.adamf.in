@@ -2,7 +2,7 @@ const plugin = require("tailwindcss/plugin");
 const typography = require("@tailwindcss/typography");
 
 module.exports = {
-  purge: [],
+  purge: ["./src/**/*.vue"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
