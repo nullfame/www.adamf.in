@@ -21,6 +21,24 @@ module.exports = {
         brown: "#6f4e37",
         "dark-brown": "#2c1608",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            h2: {
+              color: "#6f4e37",
+              fontFamily: "'Cormorant Garamond', Baskerville, serif",
+              fontWeight: "normal",
+            },
+          },
+        },
+        xl: {
+          css: {
+            "h2:first-child": {
+              marginTop: "2.15em",
+            },
+          },
+        },
+      },
     },
   },
   variants: {
