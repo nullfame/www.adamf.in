@@ -5,7 +5,7 @@
       v-html="$page.bio.content"
     ></div>
     <p class="prose prose-xl font-body mt-6 text-dark-brown leading-loose">
-      {{ $page.bio.updated }}
+      {{ $page.bio.updated }} (v{{ version }})
     </p>
   </Layout>
 </template>
@@ -24,7 +24,14 @@ query {
 </page-query>
 
 <script>
+import { version } from "../../package.json";
+
 export default {
+  data: function () {
+    return {
+      version,
+    };
+  },
   metaInfo() {
     return {
       titleTemplate: `${this.$page.site.title} - ${this.$page.site.tagline}`,
