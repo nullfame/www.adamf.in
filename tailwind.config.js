@@ -35,6 +35,10 @@ module.exports = {
           css: {
             "h2:first-child": {
               marginTop: "2.15em",
+              marginBottom: "0.6em",
+            },
+            "h2 + p": {
+              marginTop: "0",
             },
           },
         },
