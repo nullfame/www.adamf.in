@@ -28,7 +28,7 @@
       v-html="summary"
     ></section>
     <section
-      class="col-start-2 row-span-3 px-3 sm:px-6 lg:px-0 mb-6 sm:mb-12 md:mb-24 lg:mb-0"
+      class="col-start-2 row-span-3 px-3 sm:px-6 lg:px-0 mb-12 md:mb-24 lg:mb-0"
     >
       <slot />
     </section>
