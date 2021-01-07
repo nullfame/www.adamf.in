@@ -1,6 +1,6 @@
 ---
 title: Home
-date: January 2021
+updated: January 2021
 ---
 
 ## Work / Technology
