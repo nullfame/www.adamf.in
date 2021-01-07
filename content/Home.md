@@ -15,7 +15,7 @@ I moved to Evanston in 2001 and have stayed involved in the community.  Most not
 
 ## Hobbies
 
-I like to cook.  I describe my cooking as “simple food done well,” drawing a lot from the American south and southwest.  During block party I usually barbecue ribs or a brisket.  I listen to podcasts about current events, technology, and politics.  My musical preferences are classic rock, hip hop,  and recommendations from Flow State.  I know my way around a sewing machine.  I believe that relative to twelve, ten is grossly overrated.
+I like to cook and describe my cooking as “simple food done well.”  I draw a lot from the American south and southwest.  During block party, for example, I usually barbecue ribs or a brisket.  I listen to podcasts about current events, technology, and politics.  My musical preferences are classic rock, hip hop,  and recommendations from Flow State.  I bike to get around or ride the CTA when weather doesn't permit.  I know my way around a sewing machine.  I believe that relative to twelve, ten is grossly overrated.
 
 ## Background
 
