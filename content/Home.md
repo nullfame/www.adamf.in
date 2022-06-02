@@ -1,21 +1,35 @@
 ---
 title: Home
-updated: January 2021
+updated: June 2022
 ---
 
-## Work / Technology
+## Work
 
-By day I lead the development team at CardX in downtown Chicago.  Our company provides zero-cost credit card processing to merchants by applying a surcharge to cover the cost of acceptance.  We are cloud native, powered by Amazon Web Services (AWS), and I am an AWS Certified Solutions Architect (2017-2023).  We follow the serverless and microservce paradigms so the vast majority of our infrastructure is stand-alone Lambda functions.  Our language of choice is JavaScript using Node.js on the backend and Vue.js on the frontend.  Beyond code itself I believe testing, logging, and documentation are first-class citizens in the development world.  Together they form a triforce of excellence.
+By day I am Vice President of Software Development for CardX, a Chicago FinTech part of Stax Payments.  I lead our development team, who built a PCI-compliant infrastructure that processes billions of dollars in payments, and our enterprise and integration support team, which assists onboarding and supporting our largest customers.  As a leader I try to be people-focused, transparent, and inclusive.  My preference is for teams to move toward self-organization but at the very least I want to hear many voices and try many ideas.
 
-Prior to joining CardX I spent seventeen years at Northwestern University, most of that in the Weinberg College of Arts and Sciences, where I managed various web technology initiatives.
+Prior to joining CardX I spent seventeen years at Northwestern University, most of that in the Weinberg College of Arts and Sciences, where I managed various web technology and change management initiatives.
+
+## Technology
+
+My focus is on software development operations in the “serverless” cloud.  I am particularly fanatic about logging, monitoring, and tight feedback loops with front-line support. My technology stack looks like:
+
+* AWS, exclusively using Lambda for compute and similar on-demand services wherever practical
+* NodeJS on the backend
+* VueJS on the frontend
+* Observability through Datadog, LogRocket
+* Incident response through Opsgenie and Status.io
+
+I like the open communication and iterative parts of Agile. I also think Agile rituals provide time together to establish and reinforce culture.
 
 ## Community
 
-I moved to Evanston in 2001 and have stayed involved in the community.  Most notably I was a founding member of the Grandmother Park Initiative which raised $250,000 to build a park and donate it to the City.  I volunteered in a number of political campaigns and served as president of the Democratic Party of Evanston.  I am a graduate of Leadership Evanston where I worked on an affordable housing project.  I am a board member of the Grandmother Park Fund managed by the Evanston Community Foundation.
+I moved to Evanston in 2001.  Evanston is a hotbed of usually progressive, always well-meaning activists and I am no exception.  I co-founded the Grandmother Park Initiative, a quarter-million dollar campaign to build a new park in 2014. I have a lot of experience in local elections and served as president of the Democratic Party of Evanston.  I get around by bike and public transit so I want urban planning that improves non-car accessibility and safety.  Like most of Evanston, I like my kool-aide from the Radical Left™️ but I am a compromiser at heart and believe local government has to be pragmatic.
+
+Evanston is a unique microcosm with a colorful history.  It is part of the North Shore bordering both Chicago and Lake Michigan.  That means it simultaneously has neighborhoods that extend Rogers Park, functioning like inner-city Chicago, but also multi-million dollar lake front estates.  It creates dynamics where one part of town wants brighter street lamps for safety at night, the other part is concerned about light pollution, and responsible government advocates only want one lamppost vendor.
 
 ## Hobbies
 
-I like to cook and describe my cooking as “simple food done well.”  I draw a lot from the American south and southwest.  During block party, for example, I usually barbecue ribs or a brisket.  I listen to podcasts about current events, technology, and politics.  My musical preferences are classic rock, hip hop,  and recommendations from Flow State.  I bike to get around or ride the CTA when weather doesn't permit.  I know my way around a sewing machine.  I believe that relative to twelve, ten is grossly overrated.
+I like to cook.  I describe my cooking as “simple food done well,” drawing a lot from the American south and southwest into Latin America.  During block party I usually barbecue ribs or a brisket, at home it is all-day bean soups and quick tacos.  I listen to podcasts about current events and technology.  I have a whole crypto passion you can find elsewhere, starting on Twitter ([@nullfame](https://twitter.com/nullfame)).  My musical preferences are classic rock, hip hop,  and recommendations from Flow State.  I know my way around both a sewing machine and a Minecraft server.  I believe that relative to twelve, ten is grossly overrated.
 
 ## Background
 
@@ -23,4 +37,4 @@ I was born in Dearborn, Michigan, a border suburb of Detroit, and lived there un
 
 ## Meta
 
-This site was made using Gridsome, Vue.js, Tailwind, and Netlify.
+This site was made using Gridsome, Vue.js, Tailwind, and Netlify.  It is available on [GitHub](https://github.com/nullfame/www.adamf.in).
