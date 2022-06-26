@@ -4,13 +4,13 @@
   >
     <section class="col-start-1 row-start-2 sm:px-6 sm:pt-6 md:pt-12 lg:p-0">
       <g-image
-        src="~/assets/images/adamfinlayson-2019.jpg"
+        src="~/assets/images/adamfinlayson-2021.jpg"
         width="480"
         quality="100"
         class="hidden lg:inline rounded-lg"
       />
       <g-image
-        src="~/assets/images/adamfinlayson-2019-wide.jpg"
+        src="~/assets/images/adamfinlayson-2021-wide.jpg"
         width="640"
         quality="100"
         class="inline sm:rounded-lg lg:hidden"
