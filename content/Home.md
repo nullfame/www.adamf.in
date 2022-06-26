@@ -11,15 +11,16 @@ Prior to joining CardX I spent seventeen years at Northwestern University, most 
 
 ## Technology
 
-My focus is on software development operations in the “serverless” cloud.  I am particularly fanatic about logging, monitoring, and tight feedback loops with front-line support. My technology stack looks like:
+My focus is on software development operations in the "serverless" cloud.  I am particularly enthusiastic about logging, monitoring, and tight feedback loops with front-line support.  My technology stack looks like:
 
-* AWS, exclusively using Lambda for compute and similar on-demand services wherever practical
-* NodeJS on the backend
-* VueJS on the frontend
+* AWS, exclusively using Lambda for compute and similar on-demand services wherever practical (SQS, DynamoDB)
+* NodeJS on the backend, VueJS on the frontend
 * Observability through Datadog, LogRocket
 * Incident response through Opsgenie and Status.io
 
-I like the open communication and iterative parts of Agile. I also think Agile rituals provide time together to establish and reinforce culture.
+Choices in these categories may vary.
+
+I like the open communication and iterative parts of Agile.  I also think Agile rituals provide time together to establish and reinforce culture.  There is no substitute to time humans spend together.  The rest I can take or leave based on the preferences of the team.
 
 ## Community
 
@@ -29,7 +30,7 @@ Evanston is a unique microcosm with a colorful history.  It is part of the North
 
 ## Hobbies
 
-I like to cook.  I describe my cooking as “simple food done well,” drawing a lot from the American south and southwest into Latin America.  During block party I usually barbecue ribs or a brisket, at home it is all-day bean soups and quick tacos.  I listen to podcasts about current events and technology.  I have a whole crypto passion you can find elsewhere, starting on Twitter ([@nullfame](https://twitter.com/nullfame)).  My musical preferences are classic rock, hip hop,  and recommendations from Flow State.  I know my way around both a sewing machine and a Minecraft server.  I believe that relative to twelve, ten is grossly overrated.
+I like to cook.  I describe my cooking as "simple food done well," drawing a lot from the American south and southwest into Latin America.  During block party I usually barbecue ribs or a brisket, at home it is all-day bean soups and quick tacos.  I listen to podcasts about current events and technology.  I have a whole crypto passion you can find elsewhere, starting on Twitter ([@nullfame](https://twitter.com/nullfame)).  My musical preferences are classic rock, hip hop,  and recommendations from Flow State.  I know my way around both a sewing machine and a Minecraft server.  I believe that relative to twelve, ten is grossly overrated.
 
 ## Background
 
