@@ -20,7 +20,7 @@ My focus is on software development operations in the "serverless" cloud.  I am 
 
 Choices in these categories may vary.
 
-I like the open communication and iterative parts of Agile.  I also think Agile rituals provide time together to establish and reinforce culture.  There is no substitute to time humans spend together.  The rest I can take or leave based on the preferences of the team.
+I like the open communication and iterative parts of Agile.  I also think Agile rituals provide time together to establish and reinforce culture.  There is no substitute for time humans spend together.  The rest I can take or leave based on the preferences of the team.
 
 ## Community
 
