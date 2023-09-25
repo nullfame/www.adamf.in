@@ -5,7 +5,7 @@ updated: September 2023
 
 ## Work
 
-I am an independent programmer based outside Chicago in the United States. My expertise is in software development operations and serverless cloud architectures.  
+I am an independent programmer based outside Chicago in the United States. My expertise is in software development operations and serverless cloud architectures.
 
 I spent 2001-2019 in technology at Northwestern University, specifically focused on web infrastructure and application development. I joined financial technology startup CardX in 2019 where I built the technology stack, team, and flagship products leading to their acquisition by Stax Payments in 2021. Currently I provide private research and development which allows me to make my own schedule.
 
