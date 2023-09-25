@@ -1,17 +1,17 @@
 ---
 title: Home
-updated: October 2022
+updated: September 2023
 ---
 
-## Work
+I am an independent programmer based outside Chicago in the United States. 
 
-I am a technology people leader currently working as Vice President of Software Development for CardX, a Chicago FinTech brand owned by Stax Payments.  My focus is on electronic payments and compliance with evolving regulation, particularly around processing fees.  I lead our development team, who built a PCI-compliant cloud infrastructure that processes billions of dollars in payments, and our enterprise and integration support team, which assists onboarding and supporting our largest customers.  As a leader I try to be people-focused, transparent, and inclusive.  My preference is for teams to move toward self-organization but at the very least I want to hear many voices and try many ideas.
+My focus is in serverless and cloud architectures using a minimal but thorough philosophy. A system should do as few things as possible, but excel at what it does. Currently I provide private research and development which allows me to make my own schedule.
 
-Prior to joining CardX I spent seventeen years at Northwestern University, most of that in the Weinberg College of Arts and Sciences, where I managed various web technology and change management initiatives.
+I spent 2001-2019 in technology at Northwestern University, specifically focused on web infrastructure and applications. I joined financial technology startup CardX in 2019 where I built the technology stack, team, and flagship products leading to their acquisition by Stax Payments in 2021. 
 
 ## Technology
 
-My focus is on software development operations in the "serverless" cloud.  I am particularly enthusiastic about logging, monitoring, and tight feedback loops with front-line support.  My technology stack looks like:
+My expertise is in software development operations in the "serverless" cloud.  I am particularly enthusiastic about logging, monitoring, and tight feedback loops with front-line support.  My technology stack looks like:
 
 * AWS, exclusively using Lambda for compute and similar on-demand services wherever practical (SQS, DynamoDB)
 * NodeJS on the backend, VueJS on the frontend
@@ -29,7 +29,7 @@ Evanston is a unique microcosm with a colorful history.  It is part of the North
 
 ## Hobbies
 
-I like to cook.  I describe my cooking as "simple food done well," drawing a lot from the American south and southwest into Latin America.  During block party I usually barbecue ribs or a brisket, at home it is all-day bean soups and quick tacos.  I listen to podcasts about current events and technology.  I have a crypto passion you can find elsewhere, starting on Twitter ([@nullfame](https://twitter.com/nullfame)).  My musical preferences are classic rock, hip hop,  and recommendations from Flow State.  I know my way around both a sewing machine and a Minecraft server.  I believe that relative to twelve, ten is grossly overrated.
+I like to cook.  I describe my cooking as "simple food done well," drawing a lot from the American south and southwest into Latin America.  During block party I usually barbecue ribs or a brisket, at home it is all-day bean soups and quick tacos.  I listen to podcasts about current events and technology.  My musical preferences are classic rock, hip hop,  and recommendations from Flow State.  I know my way around both a sewing machine and a Minecraft server.  I believe that relative to twelve, ten is grossly overrated.
 
 ## Background
 
