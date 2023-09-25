@@ -3,15 +3,15 @@ title: Home
 updated: September 2023
 ---
 
-I am an independent programmer based outside Chicago in the United States. 
+## Work
 
-My focus is in serverless and cloud architectures using a minimal but thorough philosophy. A system should do as few things as possible, but excel at what it does. Currently I provide private research and development which allows me to make my own schedule.
+I am an independent programmer based outside Chicago in the United States. My expertise is in software development operations and serverless cloud architectures.  
 
-I spent 2001-2019 in technology at Northwestern University, specifically focused on web infrastructure and applications. I joined financial technology startup CardX in 2019 where I built the technology stack, team, and flagship products leading to their acquisition by Stax Payments in 2021. 
+I spent 2001-2019 in technology at Northwestern University, specifically focused on web infrastructure and application development. I joined financial technology startup CardX in 2019 where I built the technology stack, team, and flagship products leading to their acquisition by Stax Payments in 2021. Currently I provide private research and development which allows me to make my own schedule.
 
 ## Technology
 
-My expertise is in software development operations in the "serverless" cloud.  I am particularly enthusiastic about logging, monitoring, and tight feedback loops with front-line support.  My technology stack looks like:
+I am particularly enthusiastic about logging, monitoring, and tight feedback loops with front-line support.  My technology stack looks like:
 
 * AWS, exclusively using Lambda for compute and similar on-demand services wherever practical (SQS, DynamoDB)
 * NodeJS on the backend, VueJS on the frontend
